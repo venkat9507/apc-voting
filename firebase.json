@@ -1,0 +1,18 @@
+{
+  "hosting": [
+      {
+    "site": "vgp-9a38c",
+    "public": "vgp-9a38c",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }]
+}
